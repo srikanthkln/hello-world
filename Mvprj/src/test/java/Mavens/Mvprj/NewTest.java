@@ -9,7 +9,7 @@ public class NewTest {
   public void ChromeTest() {
 	  System.setProperty("webdriver.chrome.driver", "/Users/KLNSrikanth/Downloads/chromedriver");
 	  AppTest.driver = new ChromeDriver();
-	  System.out.println("*********CHROMEE***********");
+	  System.out.println("*********CHROMEE-From Server***********");
 	  AppTest.driver.quit();
   }
 }
