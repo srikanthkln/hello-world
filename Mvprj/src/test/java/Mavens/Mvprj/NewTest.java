@@ -7,7 +7,7 @@ public class NewTest {
 	
   @Test
   public void ChromeTest() {
-	  System.setProperty("webdriver.chrome.driver", "/Users/KLNSrikanth/Downloads/chromedriver");
+	  System.setProperty("webdriver.chrome.driver", "/Users/abc/chromedriver");
 	  AppTest.driver = new ChromeDriver();
 	  System.out.println("*********CHROMEE-From NEW Servers***********");
 	  AppTest.driver.quit();
